@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Bebas Neue", cursive;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alfa Slab One", cursive;
+}
+
+/* Header Section:- Strat */
+.header {
+  width: 100%;
+  background: url(../images/banner.png) center top !important;
+  background-size: cover;
+}
+.menu .bg-light {
+  background-color: transparent !important;
+}
+.header .menu .navbar-light .navbar-nav .nav-link {
+  color: #42200b;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.header .menu .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.header .menu .navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  position: absolute;
+  top: 70px;
+  right: 105px;
+}
+.header .number img {
+  vertical-align: middle;
+  position: absolute;
+  top: 25px;
+  right: 355px;
+}
+
+.header .number p {
+  margin-top: 0;
+  margin-bottom: 1 rem;
+  position: absolute;
+  top: 30px;
+  right: 116px;
+}
+
+/* Banner Section:- Start */
+.banner {
+  width: 100%;
+  height: 700px;
+  padding: 40px 0;
+}
+.banner .title {
+  padding-top: 20%;
+}
+.banner .title p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #42200b;
+}
+.banner .title h1 {
+  font-size: 100px;
+  line-height: 110px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #42200b;
+}
+.banner .title h2 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #42200b;
+}
+/* Banner Section:- End */
+/* Header Section:- End */
+
+/* Features Section:- Strat */
+.features {
+  width: 100%;
+  padding: 80px 0;
+}
+.features .card {
+  border: 0;
+}
+.features .card-body {
+  position: absolute;
+}
+.features .card-title {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.features .card-text:last-child {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+.features .img-2 {
+  margin-bottom: 38px;
+}
+/* Features Section:- End */
+
+.event {
+  width: 100%;
+  padding: 80px 0;
+}
+.event .p1 {
+  font-size: 26px;
+  line-height: 36px;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  color: #42200b;
+  margin-bottom: 5px;
+}
+
+.event h3 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #42200b;
+  margin-bottom: 15px;
+}
+
+.event .p2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Choose & Enjoy Section:- Start */
+.enjoy {
+  width: 100%;
+  padding: 40px 0 80px;
+}
+.enjoy .title {
+  text-align: center;
+}
+.enjoy .title a {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: "Bebas Neue", cursive;
+  color: #42200b;
+  text-transform: uppercase;
+  cursor: text;
+  padding: 8px 20px;
+  background: #ffc135;
+  margin-bottom: 30px;
+}
+.enjoy .title h2 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 400;
+  color: #42200b;
+  text-transform: uppercase;
+}
+.enjoy .title p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #42200b;
+}
+.enjoy .card {
+  border: 0;
+  padding-top: 60px;
+}
+
+.enjoy .card-2 {
+  border: 0;
+  padding-top: 60px;
+}
+.enjoy .card-body {
+  text-align: center;
+  margin-right: 55px;
+  padding: 0px;
+}
+
+.enjoy .body-2 {
+  text-align: center;
+  margin: 8px 20px 0 0;
+  padding: 0px;
+}
+.enjoy .card-body .card-title {
+  font-size: 24px;
+  line-height: 34px;
+  color: #42200b;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.enjoy .card-body .card-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #42200b;
+  margin-bottom: 20px;
+}
+.enjoy .card-body .btn {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  color: #fff;
+  background: #df1c1c;
+  border: 0;
+  padding-top: 8px 18px;
+  transition: 0.8s;
+}
+.enjoy .card-body .btn:hover,
+.enjoy .card-body .btn:focus {
+  color: #42200b;
+  background-color: #ffc74d;
+}
+/* Choose & Enjoy Section:- End */
+
+/* Contact-Us Section:- Start */
+
+/* Contact-Us Section:- End */
+.contact-us {
+  width: 100%;
+  padding: 80px 0;
+  background: url(../images/Image76.png) center top no-repeat !important;
+  background-size: cover;
+}
+
+.contact-us .title {
+  text-align: center;
+}
+
+.contact-us .title p {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #42200b;
+  padding-top: 140px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contact-us .title h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #42200b;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.contact-us input {
+  padding: 10px 40px;
+  border: 1px solid #bfbfbf;
+  margin-bottom: 20px;
+}
+.contact-us input {
+  padding: 10px 140px 10px 10px;
+}
+
+.contact-us input::placeholder {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.contact-us .btn {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 103px;
+  background-color: #df1c1c;
+  color: #fff;
+  font-family: "Alfa Slab One", cursive;
+  transition: 1s;
+}
+.contact-us .btn:hover {
+  background: #ffc135;
+  color: #42200b;
+}
+/* Footer Section: Strat */
+.footer {
+  width: 100%;
+  margin: 40px 0 0;
+  height: 580px;
+  padding: 80px 0px 0 40px;
+  background: url(../images/footerimg.png) center top no-repeat !important;
+  object-fit: contain;
+}
+
+.footer .title p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  padding-top: 40px;
+}
+.footer .title .p1 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 140px;
+  font-family: "Bebas Neue", cursive;
+}
+.footer .font-awesome {
+  padding: 135px 0 0 180px;
+}
+.footer .font-awesome a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "Bebas Neue", cursive;
+}
+.footer .font-awesome .fas {
+  font-size: 28px;
+  line-height: 38px;
+  color: #fff;
+  margin: 10px 15px 0 0;
+}
+
+.footer .icons {
+  margin: 120px 0 0 55%;
+}
+.footer .icons .fab {
+  font-size: 24px;
+  line-height: 34px;
+  color: #42200b;
+  margin-left: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 8px 12px;
+}
+.footer .icons .fab:hover {
+  color: #42200b;
+  background: #ffc135;
+}
+/* Footer Section: End */
